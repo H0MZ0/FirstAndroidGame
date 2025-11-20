@@ -54,11 +54,13 @@ class ParticleSystem {
     }
 
     fun update() {
-        // Iterate backwards to remove safely
-        for (i in particles.indices.reversed()) {
-            particles[i].update()
-            if (!particles[i].isAlive) {
-                particles.removeAt(i)
+        // Use iterator for safer removal
+        val iterator = particles.iterator()
+        while (iterator.hasNext()) {
+            val particle = iterator.next()
+            particle.update()
+            if (!particle.isAlive) {
+                iterator.remove()
             }
         }
     }

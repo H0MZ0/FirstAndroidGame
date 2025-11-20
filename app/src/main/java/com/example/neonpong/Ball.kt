@@ -40,7 +40,7 @@ class Ball(private val screenX: Int, private val screenY: Int) {
         dxdy[1] = (speed * 0.7f) * directionY // Slightly slower vertical movement
     }
 
-    fun update(leftPaddle: Paddle, rightPaddle: Paddle, particleSystem: ParticleSystem?) {
+    fun update(leftPaddle: Paddle, rightPaddle: Paddle, particleSystem: ParticleSystem) {
         // Move rect
         rect.offset(dxdy[0], dxdy[1])
 
@@ -64,20 +64,25 @@ class Ball(private val screenX: Int, private val screenY: Int) {
         }
     }
 
-    private fun handlePaddleCollision(paddle: Paddle, directionMult: Int, particleSystem: ParticleSystem?) {
+    private fun handlePaddleCollision(paddle: Paddle, directionMult: Int, particleSystem: ParticleSystem) {
         // Reverse X direction
         dxdy[0] = -dxdy[0]
         
-        // Increase speed slightly for difficulty
-        dxdy[0] *= 1.05f 
-        dxdy[1] *= 1.05f
+        // Increase speed slightly for difficulty, but cap at max speed
+        val maxSpeedMultiplier = 2.5f
+        val currentSpeed = kotlin.math.sqrt(dxdy[0] * dxdy[0] + dxdy[1] * dxdy[1])
+        
+        if (currentSpeed < speed * maxSpeedMultiplier) {
+            dxdy[0] *= 1.05f 
+            dxdy[1] *= 1.05f
+        }
 
         // Push ball out of paddle to prevent sticking
         val newX = if (directionMult == 1) paddle.rect.right + 2f else paddle.rect.left - size - 2f
         rect.offsetTo(newX, rect.top)
 
         // Trigger particles
-        particleSystem?.createExplosion(rect.centerX(), rect.centerY(), Color.YELLOW)
+        particleSystem.createExplosion(rect.centerX(), rect.centerY(), Color.YELLOW)
     }
 
     fun draw(canvas: Canvas) {

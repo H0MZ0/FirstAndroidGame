@@ -1,0 +1,196 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/hakader/.gradle/caches/transforms-3/c8c962712de3d1dc7f08205ac01813d8/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/hakader/.gradle/caches/transforms-3/3b96b78689eaf85be1bb3a275abf4f0e/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/hakader/.gradle/caches/transforms-3/4ce1484bdbe14b1b319770372ee5c532/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /home/hakader/.gradle/caches/transforms-3/1fa3214180fb353ecda0491a8e771358/transformed/jetified-activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/hakader/.gradle/caches/transforms-3/cc9a20b962d9aa0a77947daa41c9c4e1/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/hakader/.gradle/caches/transforms-3/7e82281fa8439fb044eb1921e855b43e/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/hakader/.gradle/caches/transforms-3/553d5285a346a75acf732e55aa38e2a3/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hakader/.gradle/caches/transforms-3/409efa148644dce04204a0457f23a736/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/hakader/.gradle/caches/transforms-3/bda0f3cc0553703a71a889533336b1c9/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/hakader/.gradle/caches/transforms-3/aa47d3078febe345040a91601f37b8f2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hakader/.gradle/caches/transforms-3/cd787f7e9e788e01c8839473a9a5c0a9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hakader/.gradle/caches/transforms-3/7ae51dd541aeee8bae11decb431142c6/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hakader/.gradle/caches/transforms-3/1d3f15dc853acfdb572191887ccf6079/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/hakader/.gradle/caches/transforms-3/5465e6659f8496d251a8f77ff8dafeb6/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.12.0] /home/hakader/.gradle/caches/transforms-3/83f2fc7319cba1cb402182b9aad9bc64/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.12.0] /home/hakader/.gradle/caches/transforms-3/3e0fd464fae6434c1003758ceb8c9091/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/hakader/.gradle/caches/transforms-3/b6b56726055ed635b4173d4a85631cd0/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/hakader/.gradle/caches/transforms-3/1f7e1d1b6470f0825a34f5e853ea2dec/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hakader/.gradle/caches/transforms-3/364b3194f8046d40badb262425a00997/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/hakader/.gradle/caches/transforms-3/84913791a191c91dcb79a340416b5455/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/hakader/.gradle/caches/transforms-3/226bb2318d5723b6c593277d7e6802c9/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hakader/.gradle/caches/transforms-3/b2940f808d574ada32f69a42b865ccf0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/hakader/.gradle/caches/transforms-3/613918b207dfc03c925d4cec935d44d3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/hakader/.gradle/caches/transforms-3/dda515761b2c294e4f36470ea896c647/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/hakader/.gradle/caches/transforms-3/2b48fa5bdb83533b46d123e8b286ca26/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hakader/.gradle/caches/transforms-3/4256b1009de175effe2d891a148ebbb8/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/hakader/.gradle/caches/transforms-3/05152b2d0d6db2937e0a840a2a8ad816/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/hakader/.gradle/caches/transforms-3/81749043bafef9c5c9756d8296def614/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+	package
+		ADDED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:5:5-20:19
+INJECTED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:5:5-20:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/hakader/.gradle/caches/transforms-3/aa47d3078febe345040a91601f37b8f2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/hakader/.gradle/caches/transforms-3/aa47d3078febe345040a91601f37b8f2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /home/hakader/.gradle/caches/transforms-3/83f2fc7319cba1cb402182b9aad9bc64/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /home/hakader/.gradle/caches/transforms-3/83f2fc7319cba1cb402182b9aad9bc64/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/hakader/.gradle/caches/transforms-3/84913791a191c91dcb79a340416b5455/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/hakader/.gradle/caches/transforms-3/84913791a191c91dcb79a340416b5455/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/hakader/.gradle/caches/transforms-3/613918b207dfc03c925d4cec935d44d3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/hakader/.gradle/caches/transforms-3/613918b207dfc03c925d4cec935d44d3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/hakader/.gradle/caches/transforms-3/dda515761b2c294e4f36470ea896c647/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/hakader/.gradle/caches/transforms-3/dda515761b2c294e4f36470ea896c647/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /home/hakader/.gradle/caches/transforms-3/83f2fc7319cba1cb402182b9aad9bc64/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:7:9-41
+	android:allowBackup
+		ADDED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:8:9-40
+activity#com.example.neonpong.MainActivity
+ADDED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:10:9-19:20
+	android:screenOrientation
+		ADDED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:12:13-50
+	android:exported
+		ADDED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:14:13-36
+	android:theme
+		ADDED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:13:13-63
+	android:name
+		ADDED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:11:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml:17:27-74
+uses-sdk
+INJECTED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml
+INJECTED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/hakader/.gradle/caches/transforms-3/c8c962712de3d1dc7f08205ac01813d8/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/hakader/.gradle/caches/transforms-3/c8c962712de3d1dc7f08205ac01813d8/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/hakader/.gradle/caches/transforms-3/3b96b78689eaf85be1bb3a275abf4f0e/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/hakader/.gradle/caches/transforms-3/3b96b78689eaf85be1bb3a275abf4f0e/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /home/hakader/.gradle/caches/transforms-3/4ce1484bdbe14b1b319770372ee5c532/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/hakader/.gradle/caches/transforms-3/4ce1484bdbe14b1b319770372ee5c532/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /home/hakader/.gradle/caches/transforms-3/1fa3214180fb353ecda0491a8e771358/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /home/hakader/.gradle/caches/transforms-3/1fa3214180fb353ecda0491a8e771358/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/hakader/.gradle/caches/transforms-3/cc9a20b962d9aa0a77947daa41c9c4e1/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/hakader/.gradle/caches/transforms-3/cc9a20b962d9aa0a77947daa41c9c4e1/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/hakader/.gradle/caches/transforms-3/7e82281fa8439fb044eb1921e855b43e/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/hakader/.gradle/caches/transforms-3/7e82281fa8439fb044eb1921e855b43e/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/hakader/.gradle/caches/transforms-3/553d5285a346a75acf732e55aa38e2a3/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/hakader/.gradle/caches/transforms-3/553d5285a346a75acf732e55aa38e2a3/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hakader/.gradle/caches/transforms-3/409efa148644dce04204a0457f23a736/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hakader/.gradle/caches/transforms-3/409efa148644dce04204a0457f23a736/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/hakader/.gradle/caches/transforms-3/bda0f3cc0553703a71a889533336b1c9/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/hakader/.gradle/caches/transforms-3/bda0f3cc0553703a71a889533336b1c9/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/hakader/.gradle/caches/transforms-3/aa47d3078febe345040a91601f37b8f2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/hakader/.gradle/caches/transforms-3/aa47d3078febe345040a91601f37b8f2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hakader/.gradle/caches/transforms-3/cd787f7e9e788e01c8839473a9a5c0a9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hakader/.gradle/caches/transforms-3/cd787f7e9e788e01c8839473a9a5c0a9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hakader/.gradle/caches/transforms-3/7ae51dd541aeee8bae11decb431142c6/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hakader/.gradle/caches/transforms-3/7ae51dd541aeee8bae11decb431142c6/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hakader/.gradle/caches/transforms-3/1d3f15dc853acfdb572191887ccf6079/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hakader/.gradle/caches/transforms-3/1d3f15dc853acfdb572191887ccf6079/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/hakader/.gradle/caches/transforms-3/5465e6659f8496d251a8f77ff8dafeb6/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/hakader/.gradle/caches/transforms-3/5465e6659f8496d251a8f77ff8dafeb6/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/hakader/.gradle/caches/transforms-3/83f2fc7319cba1cb402182b9aad9bc64/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/hakader/.gradle/caches/transforms-3/83f2fc7319cba1cb402182b9aad9bc64/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/hakader/.gradle/caches/transforms-3/3e0fd464fae6434c1003758ceb8c9091/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/hakader/.gradle/caches/transforms-3/3e0fd464fae6434c1003758ceb8c9091/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/hakader/.gradle/caches/transforms-3/b6b56726055ed635b4173d4a85631cd0/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/hakader/.gradle/caches/transforms-3/b6b56726055ed635b4173d4a85631cd0/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/hakader/.gradle/caches/transforms-3/1f7e1d1b6470f0825a34f5e853ea2dec/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/hakader/.gradle/caches/transforms-3/1f7e1d1b6470f0825a34f5e853ea2dec/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hakader/.gradle/caches/transforms-3/364b3194f8046d40badb262425a00997/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hakader/.gradle/caches/transforms-3/364b3194f8046d40badb262425a00997/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/hakader/.gradle/caches/transforms-3/84913791a191c91dcb79a340416b5455/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/hakader/.gradle/caches/transforms-3/84913791a191c91dcb79a340416b5455/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/hakader/.gradle/caches/transforms-3/226bb2318d5723b6c593277d7e6802c9/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/hakader/.gradle/caches/transforms-3/226bb2318d5723b6c593277d7e6802c9/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hakader/.gradle/caches/transforms-3/b2940f808d574ada32f69a42b865ccf0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hakader/.gradle/caches/transforms-3/b2940f808d574ada32f69a42b865ccf0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/hakader/.gradle/caches/transforms-3/613918b207dfc03c925d4cec935d44d3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/hakader/.gradle/caches/transforms-3/613918b207dfc03c925d4cec935d44d3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/hakader/.gradle/caches/transforms-3/dda515761b2c294e4f36470ea896c647/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/hakader/.gradle/caches/transforms-3/dda515761b2c294e4f36470ea896c647/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/hakader/.gradle/caches/transforms-3/2b48fa5bdb83533b46d123e8b286ca26/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/hakader/.gradle/caches/transforms-3/2b48fa5bdb83533b46d123e8b286ca26/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hakader/.gradle/caches/transforms-3/4256b1009de175effe2d891a148ebbb8/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hakader/.gradle/caches/transforms-3/4256b1009de175effe2d891a148ebbb8/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/hakader/.gradle/caches/transforms-3/05152b2d0d6db2937e0a840a2a8ad816/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/hakader/.gradle/caches/transforms-3/05152b2d0d6db2937e0a840a2a8ad816/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/hakader/.gradle/caches/transforms-3/81749043bafef9c5c9756d8296def614/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/hakader/.gradle/caches/transforms-3/81749043bafef9c5c9756d8296def614/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/hakader/Desktop/FirstAndroidGame/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/hakader/.gradle/caches/transforms-3/aa47d3078febe345040a91601f37b8f2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/hakader/.gradle/caches/transforms-3/84913791a191c91dcb79a340416b5455/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/hakader/.gradle/caches/transforms-3/84913791a191c91dcb79a340416b5455/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/hakader/.gradle/caches/transforms-3/dda515761b2c294e4f36470ea896c647/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/hakader/.gradle/caches/transforms-3/dda515761b2c294e4f36470ea896c647/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/hakader/.gradle/caches/transforms-3/aa47d3078febe345040a91601f37b8f2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/hakader/.gradle/caches/transforms-3/aa47d3078febe345040a91601f37b8f2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/hakader/.gradle/caches/transforms-3/aa47d3078febe345040a91601f37b8f2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/hakader/.gradle/caches/transforms-3/aa47d3078febe345040a91601f37b8f2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/hakader/.gradle/caches/transforms-3/aa47d3078febe345040a91601f37b8f2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/hakader/.gradle/caches/transforms-3/aa47d3078febe345040a91601f37b8f2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/hakader/.gradle/caches/transforms-3/aa47d3078febe345040a91601f37b8f2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/hakader/.gradle/caches/transforms-3/83f2fc7319cba1cb402182b9aad9bc64/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/hakader/.gradle/caches/transforms-3/83f2fc7319cba1cb402182b9aad9bc64/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/hakader/.gradle/caches/transforms-3/83f2fc7319cba1cb402182b9aad9bc64/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.example.neonpong.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/hakader/.gradle/caches/transforms-3/83f2fc7319cba1cb402182b9aad9bc64/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/hakader/.gradle/caches/transforms-3/83f2fc7319cba1cb402182b9aad9bc64/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/hakader/.gradle/caches/transforms-3/83f2fc7319cba1cb402182b9aad9bc64/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/hakader/.gradle/caches/transforms-3/83f2fc7319cba1cb402182b9aad9bc64/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/hakader/.gradle/caches/transforms-3/83f2fc7319cba1cb402182b9aad9bc64/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.neonpong.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/hakader/.gradle/caches/transforms-3/83f2fc7319cba1cb402182b9aad9bc64/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/hakader/.gradle/caches/transforms-3/83f2fc7319cba1cb402182b9aad9bc64/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/hakader/.gradle/caches/transforms-3/84913791a191c91dcb79a340416b5455/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/hakader/.gradle/caches/transforms-3/84913791a191c91dcb79a340416b5455/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/hakader/.gradle/caches/transforms-3/84913791a191c91dcb79a340416b5455/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
