@@ -8,61 +8,77 @@ import android.graphics.RectF
 class Paddle(
     private val screenX: Int,
     private val screenY: Int,
-    private val isPlayer: Boolean // True = Left, False = Right
+    private val isPlayer: Boolean // True = Bottom (Player), False = Top (AI)
 ) {
-    // Dimensions
-    val width = screenX / 30f
-    val height = screenY / 5f
+    // Dimensions - Horizontal paddle for portrait mode
+    val width = screenX / 4f  // Paddle width (horizontal)
+    val height = screenY / 40f  // Paddle thickness
     
     // Position
     val rect: RectF
-    private val speed = screenY / 60f // AI Max Speed per frame
+    private val speed = screenX / 60f // AI Max Speed per frame
 
     // Styling
     private val paint = Paint()
 
     init {
-        // Set initial position
-        val startX = if (isPlayer) 20f else screenX - 20f - width
-        val startY = screenY / 2f - height / 2f
+        // Set initial position - Player at BOTTOM, AI at TOP
+        val startX = screenX / 2f - width / 2f
+        val startY = if (isPlayer) screenY - 100f - height else 80f
         rect = RectF(startX, startY, startX + width, startY + height)
 
-        // Neon Style
-        paint.color = if (isPlayer) Color.CYAN else Color.MAGENTA
+        // Neon Style - Player is MAGENTA (bottom), AI is CYAN (top)
+        paint.color = if (isPlayer) Color.MAGENTA else Color.CYAN
         paint.style = Paint.Style.FILL
         // Add a glow effect
         paint.setShadowLayer(20f, 0f, 0f, paint.color)
     }
 
-    // Move paddle based on touch (Player)
-    fun update(y: Float) {
+    // Move paddle based on touch (Player) - horizontal movement
+    fun update(x: Float) {
         // Center paddle on finger
-        var newTop = y - height / 2f
+        var newLeft = x - width / 2f
         
         // Screen bounds check
-        if (newTop < 0) newTop = 0f
-        if (newTop + height > screenY) newTop = screenY - height
+        if (newLeft < 0) newLeft = 0f
+        if (newLeft + width > screenX) newLeft = screenX - width
 
-        rect.offsetTo(rect.left, newTop)
+        rect.offsetTo(newLeft, rect.top)
     }
 
-    // AI Logic: Move towards the ball
-    fun updateAI(ballY: Float) {
-        val centerY = rect.centerY()
+    // AI Logic: Improved difficulty with better prediction and reaction
+    private var aiReactionDelay = 0
+    private var aiTargetX = 0f
+    private var aiDifficulty = 0.95f // 95% accuracy
+    
+    fun updateAI(ballX: Float, ballVelocityY: Float) {
+        // Only react if ball is moving towards AI (at top)
+        if (ballVelocityY < 0) return // Ball moving away from AI
+        
+        // Faster reaction - update every frame for harder AI
+        aiReactionDelay++
+        if (aiReactionDelay >= 2) { // Update target every 2 frames (was 3)
+            aiReactionDelay = 0
+            // Reduced error margin for harder AI (5% instead of 15%)
+            val errorMargin = width * 0.05f * (Math.random().toFloat() - 0.5f)
+            aiTargetX = ballX + errorMargin
+        }
+        
+        val centerX = rect.centerX()
+        val deadZone = width * 0.15f // Smaller dead zone (was 0.3f)
 
-        // Simple logic: if ball is above, move up. If below, move down.
-        // We use 'speed' to limit how fast the AI can move to make it beatable.
-        if (ballY < centerY - 10) {
-            rect.top -= speed
-            rect.bottom -= speed
-        } else if (ballY > centerY + 10) {
-            rect.top += speed
-            rect.bottom += speed
+        // Move towards target with higher speed
+        if (aiTargetX < centerX - deadZone) {
+            rect.left -= speed * aiDifficulty // 95% speed (was 80%)
+            rect.right -= speed * aiDifficulty
+        } else if (aiTargetX > centerX + deadZone) {
+            rect.left += speed * aiDifficulty
+            rect.right += speed * aiDifficulty
         }
 
         // Screen bounds check for AI
-        if (rect.top < 0) rect.offsetTo(rect.left, 0f)
-        if (rect.bottom > screenY) rect.offsetTo(rect.left, screenY - height)
+        if (rect.left < 0) rect.offsetTo(0f, rect.top)
+        if (rect.right > screenX) rect.offsetTo(screenX - width, rect.top)
     }
 
     fun draw(canvas: Canvas) {

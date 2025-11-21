@@ -13,8 +13,16 @@ class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Initialize the custom GameView
-        gameView = GameView(this)
+        // Get game mode from intent
+        val modeName = intent.getStringExtra("GAME_MODE") ?: GameMode.VS_AI.name
+        val gameMode = try {
+            GameMode.valueOf(modeName)
+        } catch (e: Exception) {
+            GameMode.VS_AI
+        }
+
+        // Initialize the custom GameView with selected mode
+        gameView = GameView(this, gameMode)
         setContentView(gameView)
 
         // Hide system bars for full immersion
@@ -29,6 +37,11 @@ class MainActivity : Activity() {
     override fun onPause() {
         super.onPause()
         gameView.pause()
+    }
+    
+    override fun onDestroy() {
+        super.onDestroy()
+        gameView.cleanup()
     }
 
     private fun hideSystemUI() {

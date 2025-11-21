@@ -40,33 +40,34 @@ class Ball(private val screenX: Int, private val screenY: Int) {
         dxdy[1] = (speed * 0.7f) * directionY // Slightly slower vertical movement
     }
 
-    fun update(leftPaddle: Paddle, rightPaddle: Paddle, particleSystem: ParticleSystem) {
+    fun update(topPaddle: Paddle, bottomPaddle: Paddle, particleSystem: ParticleSystem, gameView: com.example.neonpong.GameView? = null) {
         // Move rect
         rect.offset(dxdy[0], dxdy[1])
 
-        // 1. Wall Collisions (Top and Bottom)
-        if (rect.top < 0 || rect.bottom > screenY) {
-            dxdy[1] = -dxdy[1] // Reverse Y
+        // 1. Wall Collisions (Left and Right sides in portrait)
+        if (rect.left < 0 || rect.right > screenX) {
+            dxdy[0] = -dxdy[0] // Reverse X
             // Keep inside screen
-            if (rect.top < 0) rect.offsetTo(rect.left, 0f)
-            if (rect.bottom > screenY) rect.offsetTo(rect.left, screenY - size)
+            if (rect.left < 0) rect.offsetTo(0f, rect.top)
+            if (rect.right > screenX) rect.offsetTo(screenX - size, rect.top)
+            gameView?.playWallSound()
         }
 
-        // 2. Paddle Collisions
-        // Check overlap with Player (Left)
-        if (RectF.intersects(rect, leftPaddle.rect)) {
-            handlePaddleCollision(leftPaddle, 1, particleSystem)
+        // 2. Paddle Collisions - AI at TOP, Player at BOTTOM
+        // Check overlap with AI (Top paddle)
+        if (RectF.intersects(rect, topPaddle.rect)) {
+            handlePaddleCollision(topPaddle, 1, particleSystem, gameView)
         }
 
-        // Check overlap with AI (Right)
-        if (RectF.intersects(rect, rightPaddle.rect)) {
-            handlePaddleCollision(rightPaddle, -1, particleSystem)
+        // Check overlap with Player (Bottom paddle)
+        if (RectF.intersects(rect, bottomPaddle.rect)) {
+            handlePaddleCollision(bottomPaddle, -1, particleSystem, gameView)
         }
     }
 
-    private fun handlePaddleCollision(paddle: Paddle, directionMult: Int, particleSystem: ParticleSystem) {
-        // Reverse X direction
-        dxdy[0] = -dxdy[0]
+    private fun handlePaddleCollision(paddle: Paddle, directionMult: Int, particleSystem: ParticleSystem, gameView: com.example.neonpong.GameView? = null) {
+        // Reverse Y direction (vertical movement in portrait)
+        dxdy[1] = -dxdy[1]
         
         // Increase speed slightly for difficulty, but cap at max speed
         val maxSpeedMultiplier = 2.5f
@@ -77,12 +78,15 @@ class Ball(private val screenX: Int, private val screenY: Int) {
             dxdy[1] *= 1.05f
         }
 
-        // Push ball out of paddle to prevent sticking
-        val newX = if (directionMult == 1) paddle.rect.right + 2f else paddle.rect.left - size - 2f
-        rect.offsetTo(newX, rect.top)
+        // Push ball out of paddle to prevent sticking (vertical in portrait)
+        val newY = if (directionMult == 1) paddle.rect.bottom + 2f else paddle.rect.top - size - 2f
+        rect.offsetTo(rect.left, newY)
 
-        // Trigger particles
-        particleSystem.createExplosion(rect.centerX(), rect.centerY(), Color.YELLOW)
+        // Play sound
+        gameView?.playPaddleSound()
+        
+        // Trigger particles with paddle color
+        particleSystem.createExplosion(rect.centerX(), rect.centerY(), Color.WHITE)
     }
 
     fun draw(canvas: Canvas) {
